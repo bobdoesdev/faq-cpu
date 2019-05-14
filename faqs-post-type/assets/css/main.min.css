@@ -1,0 +1,54 @@
+/* line 5, sass/_main.scss */
+#faq-cpu .grid-item {
+  padding: 1rem;
+}
+/* line 9, sass/_main.scss */
+#faq-cpu .grid-sizer {
+  width: 48%;
+}
+/* line 13, sass/_main.scss */
+#faq-cpu .gutter-sizer {
+  width: 1%;
+}
+/* line 17, sass/_main.scss */
+#faq-cpu .faq-category-wrapper {
+  width: 47%;
+  margin: 1rem;
+}
+/* line 23, sass/_main.scss */
+#faq-cpu .faq-category-wrapper .faq-cat-title {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+/* line 28, sass/_main.scss */
+#faq-cpu .faq-category-wrapper .faq-cat-inner {
+  background-color: #f7f7f7;
+  border: 1px solid #3bb55e;
+  border-radius: 4px;
+  padding: 1rem;
+}
+/* line 35, sass/_main.scss */
+#faq-cpu .faq-category-wrapper .faq-wrapper {
+  margin: 2rem 0;
+}
+/* line 38, sass/_main.scss */
+#faq-cpu .faq-category-wrapper .faq-wrapper .faq-question-link {
+  color: #333333;
+  padding-left: 4rem;
+  position: relative;
+  display: block;
+}
+/* line 43, sass/_main.scss */
+#faq-cpu .faq-category-wrapper .faq-wrapper .faq-question-link:hover {
+  text-decoration: none;
+}
+/* line 46, sass/_main.scss */
+#faq-cpu .faq-category-wrapper .faq-wrapper .faq-question-link:before {
+  content: 'Q.';
+  color: #3bb55e;
+  font-size: 3rem;
+  margin-right: 1rem;
+  position: absolute;
+  left: 0;
+  top: -1.2rem;
+}
