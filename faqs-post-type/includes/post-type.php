@@ -114,3 +114,21 @@ function custom_column_content( $column_name ) {
 	}
 }
 
+//specify plugin based template
+add_filter('template_include', __NAMESPACE__.'\add_single_template', 11);
+function add_single_template( $template ) {
+
+    	if ( is_singular( 'faq' ) ) {
+    		return plugin_dir_path(__FILE__) . 'templates/single-faq.php';
+    	}
+    	return $template;
+}
+
+add_filter('template_include', __NAMESPACE__.'\add_archive_template', 11);
+function add_archive_template( $template ) {
+
+    	if ( is_post_type_archive( 'faq' ) ) {
+    		return plugin_dir_path(__FILE__) . 'templates/archive-faq.php';
+    	}
+    	return $template;
+}
